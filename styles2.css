@@ -1,0 +1,41 @@
+:root {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+
+}
+body {
+    /*background-color: #eee;*/
+    background-color: lightgray;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    color: #fff;
+    background-color: #0072b0;
+    border-radius: .5em;
+}
+
+main {
+    display: block;
+}
+
+.main {
+    float: left;
+    width: 70%;
+    background-color: #fff;
+    border-radius: .5em;
+    /*border: 1px solid;*/
+}
+
+.sidebar {
+    float: left;
+    width: 29%; /* subtrair 1% da largura.*/
+    padding: 1.5em;
+    margin-left: 1%; /*e add como uma margem para a calha.*/
+    background-color: #fff;
+    border-radius: .5em;
+    /*border: 1px solid;*/
+}

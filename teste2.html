@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="">
+<style>
+
+:root {
+    font-size: 0.75em;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (min-width: 800px) {
+    :root {
+        font-size: 0.875em;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 1em;
+    }
+}
+
+</style>
+</head>
+<body>
+    <h1>Unidades relativas.</h1>
+    <h2>Ems e rems:</h2>
+
+    <p>ems - a unidade de comprimento relativo mais comum, é uma mediada usada em
+tipografia, referindo-se a um tamanho de fonte especificado. Em CSS, 1em
+significa o tamanho da fonte do elemento atual.
+Seu valor exato varia dependendo do elemento ao qual você está aplicando.</p>
+
+    <p>rem - O nó raiz é o ancestral de todos os outros elementos no documento.
+ele tem um seletor de pseudo-classe especial (:root) que você pode usar para
+direcioná-lo. Isso equivale a usar o seletor de tipo html com a especificidade
+de uma classe em vez de uma tag.
+Rem é a abreviação de 'raiz em/root em'. Em vez de ser relativo ao elemento atual,
+rem é relativo ao elemento raiz. Não importa onde você o aplique no documento,
+1.2rem tem o mesmo valor calculado: 1.2 * ao tamanho da fonte do elemento raiz.</p>
+
+    <p>DICA - Em caso de duvída, use rem para tamanho da fonte, pixels para bordas e
+        em para a maioria das outras propriedades.</p>
+</body>
+</html>

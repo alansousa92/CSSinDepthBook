@@ -1,11 +1,53 @@
+/* Listing 1.3 - Overriding user agent style */
+
 h1 {
-    font-family: serif;
+    color: #2f4f4f;
+    margin-bottom: 10px;
 }
 
-#page-title {
-    font-family: sans-serif;
+/*
+#main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+*/
+
+.nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
 }
 
-.title {
-    font-family: monospace
+/* Makes list items appear side by rather than stacked */
+/*#main-nav li {
+    display: inline-block;
+}*/
+.nav li {
+    display: inline-block;
+}
+
+/* Provides a button-like appearance for the navigatinal links. */
+/*#main-nav a {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}*/
+.nav a {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*#main-nav .featured {
+    background-color: orange;
+}*/
+
+.nav .featured {
+    background-color: orange;
+
 }

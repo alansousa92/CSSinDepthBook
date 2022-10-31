@@ -1,0 +1,18 @@
+Unidades relativas.
+Ems e rems:
+
+ems - a unidade de comprimento relativo mais comum, é uma mediada usada em
+tipografia, referindo-se a um tamanho de fonte especificado. Em CSS, 1em
+significa o tamanho da fonte do elemento atual.
+Seu valor exato varia dependendo do elemento ao qual você está aplicando.
+
+rem - O nó raiz é o ancestral de todos os outros elementos no documento.
+ele tem um seletor de pseudo-classe especial (:root) que você pode usar para
+direcioná-lo. Isso equivale a usar o seletor de tipo html com a especificidade
+de uma classe em vez de uma tag.
+Rem é a abreviação de 'raiz em/root em'. Em vez de ser relativo ao elemento atual,
+rem é relativo ao elemento raiz. Não importa onde você o aplique no documento,
+1.2rem tem o mesmo valor calculado: 1.2 * ao tamanho da fonte do elemento raiz.
+
+DICA - Em caso de duvída, use rem para tamanho da fonte, pixels para bordas e
+em para a maioria das outras propriedades.
